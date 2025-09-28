@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "BirdCall",
+    "slug": "BirdCallApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#cfe3da"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#cfe3da"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kishalan.BirdCallApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3602c22c-c9a8-4143-adc5-9bf6f737bbf1"
+      }
+    }
+  }
+}
