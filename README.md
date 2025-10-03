@@ -1,12 +1,12 @@
 # 🐦 BirdCallApp
 
-BirdCallApp is a simple React Native + Expo application that plays short and long bird call sounds.  
+BirdCallApp is a simple **React Native + Expo** application that plays short and long bird call sounds.  
 It’s designed for bird enthusiasts, hobbyists, or anyone interested in learning and recognizing bird sounds.
 
 ---
 
 ## ✨ Features
-- 🎶 Play short and long versions of bird calls  
+- 🎶 Play **short and long** versions of bird calls  
 - 📱 Built with **React Native** and **Expo**  
 - 🎨 Minimal and clean interface  
 - 🔊 Preloaded with audio assets in `assets/sounds/`
@@ -15,7 +15,15 @@ It’s designed for bird enthusiasts, hobbyists, or anyone interested in learnin
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/kishalan-8/BirdCallApp.git
+# Clone this repository
+git clone https://github.com/kishalan-8/BirdCallApp
+
+# Go into the repository
 cd BirdCallApp
+
+# Install dependencies
+npm install
+
+# Run the app with Expo
+npx expo start
